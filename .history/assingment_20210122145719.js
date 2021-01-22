@@ -19,13 +19,13 @@ console.log(meter);
 
 // var numberOfWatch = 4;
 // var numberOfPhone = 5;
-// var numberOfLaptop = 6;
+// var noOfLaptop = 6;
 
 // var watchPrice = 50;
 // var phonePrice = 100;
 // var laptopPrice = 500;
 
-// var total = (watchPrice * numberOfWatch) + (phonePrice * numberOfPhone) + (laptopPrice * numberOfLaptop);
+// var total = (watchPrice * noOfWatch) + (phonePrice * noOfPhone) + (laptopPrice * noOfLaptop);
 // console.log(total);
 
 
@@ -43,7 +43,7 @@ function budgetCalculator(numberOfWatch, numberOfPhone, numberOfLaptop) {
     var watchPrice = 50;
     var phonePrice = 100;
     var laptopPrice = 500;
-    var total = (watchPrice * numberOfWatch) + (phonePrice * numberOfPhone) + (laptopPrice * numberOfLaptop);
+    var total = (watchPrice * numberOfWatch) + (phonePrice * numberOfPhone) + (laptopPrice * numberOfLaptop)
     return total;
 }
 var total = budgetCalculator(1, 2, 3);

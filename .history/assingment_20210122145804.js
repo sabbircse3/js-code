@@ -25,7 +25,7 @@ console.log(meter);
 // var phonePrice = 100;
 // var laptopPrice = 500;
 
-// var total = (watchPrice * numberOfWatch) + (phonePrice * numberOfPhone) + (laptopPrice * numberOfLaptop);
+// var total = (watchPrice * noOfWatch) + (phonePrice * noOfPhone) + (laptopPrice * noOfLaptop);
 // console.log(total);
 
 
