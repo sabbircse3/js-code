@@ -1,5 +1,6 @@
 // 1st Problem: Convert kilometer to meter
 
+
 // var kilo = 2;
 // var meter = kilo*1000;
 // console.log(meter);
@@ -48,23 +49,4 @@ function budgetCalculator(numberOfWatch, numberOfPhone, numberOfLaptop) {
 var total = budgetCalculator(1, 2, 3);
 console.log(total);
 
-//3rd problem: finding mega name of friends
-
-function megaFriend(friendsName) {
-    var count = 0;
-    var megaName = ' ';
-    for (var i = 0; i < friendsName.length; i++) {
-        var char = friendsName[i];
-
-        if (char != null && char != undefined) { // checking char null or undefined
-            if (char.length > count) {
-                count = char.length;
-                megaName = char;
-            }
-        }
-    }
-    return megaName;
-}
-
-var megaName = megaFriend(['jahid', 'sabbir', 'kabir']);
-console.log(megaName);
+//3rd problem: finding mega name of fr
