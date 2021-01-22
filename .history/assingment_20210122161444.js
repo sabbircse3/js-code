@@ -90,7 +90,7 @@ function hotelCost(rentDays) {
         var costFirstTenDays = 10 * firstTenDays;
         var costSecondTenDays = 10 * secondTenDays;
         var costRestOfDays = (rentDays - 20) * restOfDays;
-        var totalCost = costFirstTenDays + costSecondTenDays + costRestOfDays;
+        var totalCost = costFirstTenDays + costOfSecondTenDays + costRestOfDays;
         return totalCost;
     }
 }

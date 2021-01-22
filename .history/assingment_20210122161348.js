@@ -69,30 +69,4 @@ function megaFriend(friendsName) {
 var megaName = megaFriend(['jahid', 'sabbir', 'kabir']);
 console.log(megaName);
 
-// 4th problem: hotel cost calculation
-
-function hotelCost(rentDays) {
-    var firstTenDays = 100;
-    var secondTenDays = 80;
-    var restOfDays = 50;
-
-    if (rentDays >= 1 && rentDays <= 10) {
-        var totalCost = rentDays * firstTenDays;
-        return totalCost;
-
-    } else if (rentDays >= 11 && rentDays <= 20) {
-        var costFirstTenDays = 10 * firstTenDays;
-        var costRestOfDays = (rentDays - 10) * secondTenDays;
-        var totalCost = costFirstTenDays + costRestOfDays;
-        return totalHotelCost;
-
-    } else {
-        var costFirstTenDays = 10 * firstTenDays;
-        var costSecondTenDays = 10 * secondTenDays;
-        var costRestOfDays = (rentDays - 20) * restOfDays;
-        var totalCost = costFirstTenDays + costSecondTenDays + costRestOfDays;
-        return totalCost;
-    }
-}
-var cost = hotelCost(40);
-console.log(cost);
+// 4th problem: h
